@@ -1,5 +1,5 @@
 # empRetentionStreamlit
-Deploying Employee Retention Prediction Machine Learning Web app using Streamlit on Heroku 
+Deploying Employee Retention Prediction Machine Learning Web app using Streamlit 
 
 # Employee Retention Prediction Web Application
 
