@@ -11,9 +11,9 @@ def emp_retention_prediction(input_data):
     input_data_reshaped = input_data_as_numpy_array.reshape(1,-1)
     prediction = emp_ret_model.predict(input_data_reshaped)
     if prediction[0] == 0:
-        return "The Employee will LEAVE the company"
+        return "The Employee will NOT be Promoted in the company"
     else:
-        return "The Employee will STAY in the company"
+        return "The Employee will BE Promoted in the company"
     
 
 def main():
